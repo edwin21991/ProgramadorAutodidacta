@@ -3,8 +3,8 @@
   overflow: hidden;
   position: relative;
   display: inline-block;
-  width: 200px;
-  height: 250px;
+  width: 250px;
+  height: 200px;
   margin-right: 10px;
   font-size: 20px;
   cursor: pointer;
@@ -14,20 +14,20 @@
 }
 
 .carousel-item:hover ~ .carousel-item {
-  -webkit-transform: translate3d(100px, 0, 0);
-          transform: translate3d(100px, 0, 0);
+  -webkit-transform: translate3d(250px, 0, 0);
+          transform: translate3d(250px, 0, 0);
 }
 
 .carousel-item__img {
-  width: 200px;
-  height: 250px;
+  width: 250px;
+  height: 200px;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
 .carousel-item__details {
   align-items: flex-start;
-  background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 100%);
+  background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 60%);
   bottom: 0;
   display: flex;
   font-size: 10px;

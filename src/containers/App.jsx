@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import '../assets/styles/App.scss'
 import Header from '../components/Header'
 import Menu from '../components/Menu'
@@ -7,59 +7,69 @@ import Carousel from '../components/Carousel'
 import CarouselItem from '../components/CarouselItem'
 import Footer from '../components/Footer'
 
-const App = () => (
+const App = () => {
   
-  <div className="app">
+  const [certificados, setCertificados] = useState({
+      Universidad: [],
+      DiplomadoJavaScript: [],
+      DiplomadoReactJS: [],
+      DiplomadoReactNative: [],
+      Cursos: []
+  })
 
-    <Header />
-    <Menu />
-    <RutaAprendizaje title="Universidad">
-      <Carousel>
-        <CarouselItem />
-        <CarouselItem /> 
-        <CarouselItem />
-        <CarouselItem />  
-        <CarouselItem />
-        <CarouselItem />     
-      </Carousel>  
-    </RutaAprendizaje>
+  useEffect (()=>{
+    fetch('http://localhost:3000/initalState')
+      .then(response => response.json())
+      .then(data => setCertificados(data))
+  }, [])
 
-    <RutaAprendizaje title="Diplomado en JavaScript">
-      <Carousel>
-        <CarouselItem />
-        <CarouselItem /> 
-        <CarouselItem />
-        <CarouselItem />  
-        <CarouselItem />
-        <CarouselItem />   
-      </Carousel>  
-    </RutaAprendizaje>
+  console.log(certificados)
+  return(    
+    <div className="app">
 
-    <RutaAprendizaje title="Diplomado en React Native">
-      <Carousel>
-        <CarouselItem />
-        <CarouselItem />
-        <CarouselItem />
-        <CarouselItem />  
-        <CarouselItem />
-        <CarouselItem />    
-      </Carousel>  
-    </RutaAprendizaje>
+      <Header />
+      <Menu />
+      <RutaAprendizaje title="Universidad">
+        <Carousel>
+          {certificados.Universidad.map(item =>
+            <CarouselItem key={item.id} {...item} />
+          )} 
+        </Carousel>  
+      </RutaAprendizaje>
 
-    <RutaAprendizaje title="Cursos">
-      <Carousel>
-        <CarouselItem />
-        <CarouselItem />
-        <CarouselItem />
-        <CarouselItem />  
-        <CarouselItem />
-        <CarouselItem />    
-      </Carousel>  
-    </RutaAprendizaje>
+       <RutaAprendizaje title="Diplomado en JavaScript">
+        <Carousel>
+          {certificados.DiplomadoJavaScript.map(item =>
+            <CarouselItem key={item.id} {...item} />
+          )} 
+        </Carousel>  
+      </RutaAprendizaje>
+      
+      <RutaAprendizaje title="Diplomado en ReactJS">
+        <Carousel>
+          {certificados.DiplomadoReactJS.map(item =>
+            <CarouselItem key={item.id} {...item} />
+          )} 
+        </Carousel>   
+      </RutaAprendizaje>
 
-    <Footer />
+      <RutaAprendizaje title="Diplomado en React Native">
+        <Carousel>
+          {certificados.DiplomadoReactNative.map(item =>
+            <CarouselItem key={item.id} {...item} />
+          )} 
+        </Carousel>    
+      </RutaAprendizaje>
+      <RutaAprendizaje title="Cursos">
+        <Carousel>
+          {certificados.Cursos.map(item =>
+            <CarouselItem key={item.id} {...item} />
+          )} 
+        </Carousel>    
+      </RutaAprendizaje>
 
-  </div>
-)
-
+      <Footer />
+    </div>
+  )
+}
 export default App
