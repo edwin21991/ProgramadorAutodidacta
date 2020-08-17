@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 import '../assets/styles/components/Menu.scss'
 
 const Menu = () =>(
@@ -6,10 +8,18 @@ const Menu = () =>(
     <hr className="menu__space"/>
     <div className="menu__container">
 
-      <button className="menu__button">Preparación</button>
-      <button className="menu__button">Hoja de Vida</button>
-      <button className="menu__button">Portafolio</button>
-      <button className="menu__button">Sobre Mi</button>
+      <Link to="/preparacion">
+        <button className="menu__button">Preparación</button>
+      </Link>
+      <Link to="/">
+        <button className="menu__button">Hoja de Vida</button>
+      </Link>
+      <Link to="/portafolio">
+        <button className="menu__button">Portafolio</button>
+      </Link>
+      <Link to="sobremi">
+        <button className="menu__button">Sobre Mi</button>
+      </Link>
 
     </div>
   </nav>

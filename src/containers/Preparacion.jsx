@@ -1,37 +1,33 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
+import { connect } from 'react-redux'
+
 import '../assets/styles/App.scss'
-import Header from '../components/Header'
-import Menu from '../components/Menu'
 import RutaAprendizaje from '../components/RutaAprendizaje'
 import Carousel from '../components/Carousel'
 import CarouselItem from '../components/CarouselItem'
-import Footer from '../components/Footer'
 
-const App = () => {
-  
-  const [certificados, setCertificados] = useState({
-      Universidad: [],
-      DiplomadoJavaScript: [],
-      DiplomadoReactJS: [],
-      DiplomadoReactNative: [],
-      Cursos: []
-  })
+const Home = ({Favorite, Universidad, DiplomadoJavaScript, DiplomadoReactJS, DiplomadoReactNative, Cursos}) => {
 
-  useEffect (()=>{
-    fetch('http://localhost:3000/initalState')
-      .then(response => response.json())
-      .then(data => setCertificados(data))
-  }, [])
-
-  console.log(certificados)
   return(    
     <div className="app">
-
-      <Header />
-      <Menu />
+      
+      {Favorite.length > 0 &&
+        <RutaAprendizaje title="Fovoritos">
+          <Carousel>
+            {Favorite.map(item =>
+              <CarouselItem 
+                key={item.id} 
+                {...item}
+                isList
+              />
+            )} 
+          </Carousel>  
+        </RutaAprendizaje>
+      }
+      
       <RutaAprendizaje title="Universidad">
         <Carousel>
-          {certificados.Universidad.map(item =>
+          {Universidad.map(item =>
             <CarouselItem key={item.id} {...item} />
           )} 
         </Carousel>  
@@ -39,7 +35,7 @@ const App = () => {
 
        <RutaAprendizaje title="Diplomado en JavaScript">
         <Carousel>
-          {certificados.DiplomadoJavaScript.map(item =>
+          {DiplomadoJavaScript.map(item =>
             <CarouselItem key={item.id} {...item} />
           )} 
         </Carousel>  
@@ -47,7 +43,7 @@ const App = () => {
       
       <RutaAprendizaje title="Diplomado en ReactJS">
         <Carousel>
-          {certificados.DiplomadoReactJS.map(item =>
+          {DiplomadoReactJS.map(item =>
             <CarouselItem key={item.id} {...item} />
           )} 
         </Carousel>   
@@ -55,21 +51,41 @@ const App = () => {
 
       <RutaAprendizaje title="Diplomado en React Native">
         <Carousel>
-          {certificados.DiplomadoReactNative.map(item =>
+          {DiplomadoReactNative.map(item =>
             <CarouselItem key={item.id} {...item} />
           )} 
         </Carousel>    
       </RutaAprendizaje>
       <RutaAprendizaje title="Cursos">
         <Carousel>
-          {certificados.Cursos.map(item =>
+          {Cursos.map(item =>
             <CarouselItem key={item.id} {...item} />
           )} 
         </Carousel>    
       </RutaAprendizaje>
 
-      <Footer />
     </div>
   )
 }
-export default App
+
+const mapStateToProps = state =>{
+  return{
+    Favorite: state.Favorite,
+    Universidad: state.Universidad,
+    DiplomadoJavaScript: state.DiplomadoJavaScript,
+    DiplomadoReactJS: state.DiplomadoReactJS,
+    DiplomadoReactNative: state.DiplomadoReactNative,
+    Cursos: state.Cursos,
+  }
+}
+export default connect(mapStateToProps, null) (Home)
+
+
+
+
+
+
+
+
+
+
