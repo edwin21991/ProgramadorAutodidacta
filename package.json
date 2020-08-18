@@ -1,4 +1,5 @@
 {
+  "homepage":"https://edwin21991.github.io/ProgramadorAutodidacta", 
   "name": "programadorautodidacta",
   "version": "0.1.0",
   "private": true,
@@ -28,7 +29,9 @@
     "start": "webpack-dev-server --open --mode development",
     "build": "webpack --mode production",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
