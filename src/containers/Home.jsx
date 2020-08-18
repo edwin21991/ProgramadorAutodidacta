@@ -1,16 +1,14 @@
 import React from 'react'
 import '../assets/styles/App.scss'
-import Header from '../components/Header'
-import Menu from '../components/Menu'
-import Section from '../components/Section'
-import Footer from '../components/Footer'
+import SectionHome from '../components/SectionHome'
+
 
 const Home = () => {
 
   return(    
     <div className="app">
       
-      <Section />
+      <SectionHome />
   
     </div>
   )

@@ -1,15 +1,12 @@
 import React from 'react'
 import '../assets/styles/App.scss'
-import Header from '../components/Header'
-import Menu from '../components/Menu'
-import Section from '../components/Section'
-import Footer from '../components/Footer'
+import SectionSobreMi from '../components/SectionSobreMi'
 
 const SobreMi = () => {
 
   return(    
     <div className="app">
-      <Section />
+      <SectionSobreMi />
     </div>
   )
 }

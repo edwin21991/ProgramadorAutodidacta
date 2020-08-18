@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import '../assets/styles/components/Menu.scss'
+// import Curriculum from '../assets/static/Hoja de vida Edwin Sanchez.pdf'
 
 const Menu = () =>(
   <nav className="menu">
@@ -11,9 +12,9 @@ const Menu = () =>(
       <Link to="/preparacion">
         <button className="menu__button">Preparación</button>
       </Link>
-      <Link to="/">
-        <button className="menu__button">Hoja de Vida</button>
-      </Link>
+      
+      <a href="../../public/doc/Hoja de vida Edwin Sanchez.pdf" target="_blank"><button className="menu__button">Hoja de Vida</button></a>
+      
       <Link to="/portafolio">
         <button className="menu__button">Portafolio</button>
       </Link>

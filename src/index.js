@@ -11,7 +11,7 @@ const initialState = {
   "Universidad": [
     {
       "id": 2,
-      "title": "Tecnico Profecional en Programacion Web y Multimedia",
+      "title": "Tecnico Profecional en Programacion Web",
       "type": "Universidad Presencial",
       "year": "2018",
       "duration": "2 Años",
