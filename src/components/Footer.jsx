@@ -11,7 +11,7 @@ const Footer = () =>(
   <footer className = "footer">
     <div className="footer__container-redes">
       <a href = "https://www.facebook.com/programadorautodidacta/" target="_blank"><img src={facebook} alt="Facebook"/></a>
-      <a href = "/" target="_blank"><img src={twitter} alt="twitter" /></a>
+      <a href = "https://twitter.com/progAutodidacta" target="_blank"><img src={twitter} alt="twitter" /></a>
       <a href = "https://linkedin.com/in/edwin-giovanny-sánchez-gongora-a27a30173" target="_blank"><img src={linkedin} alt="linkedin"/></a>
       <a href = "https://www.youtube.com/channel/UCSG7yWRwi6YKeSEQaF4ukHw?view_as=subscriber" target="_blank"><img src={youtube} alt="youtube"/></a>
       <a href = "https://www.tiktok.com/@programadorautodidacta?lang=en" target="_blank"><img src={tiktok} alt="tik tok"/></a>
