@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import '../assets/styles/components/Menu.scss'
-// import Curriculum from '../assets/static/Hoja de vida Edwin Sanchez.pdf'
 
 const Menu = () =>(
   <nav className="menu">

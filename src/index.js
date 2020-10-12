@@ -23,7 +23,7 @@ const initialState = {
       "id": 3,
       "title": "Tecnologo En Desarrollo De Software",
       "type": "Universidad Presencial",
-      "year": "2020 (Pendiente Certificado)",
+      "year": "2020",
       "duration": "3 Años",
       "cover": "../../public/images/tecnologo.png",
       "institute": "Teinco",
