@@ -8,17 +8,17 @@ const Menu = () =>(
     <hr className="menu__space"/>
     <div className="menu__container">
 
-      <Link to="/preparacion">
+      <Link to="/preparacion" className="menu__Link">
         <button className="menu__button">Preparación</button>
       </Link>
       
-      <a href="../../public/doc/Hoja de vida Edwin Sanchez.pdf" target="_blank"><button className="menu__button">Hoja de Vida</button></a>
+      <a href="../../public/doc/Hoja de vida Edwin Sanchez.pdf" target="_blank" className="menu__Link"><button className="menu__button">Hoja de Vida</button></a>
       
-      <Link to="/portafolio">
+      <Link to="/portafolio" className="menu__Link">
         <button className="menu__button">Portafolio</button>
       </Link>
-      <Link to="sobremi">
-        <button className="menu__button">Sobre Mi</button>
+      <Link to="sobremi" className="menu__Link">
+        <button className="menu__button-curva" >Sobre Mi</button>
       </Link>
 
     </div>

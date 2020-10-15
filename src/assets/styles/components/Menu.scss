@@ -26,4 +26,99 @@ hr{
 	color: white;
 	border-radius: 5px;
 	cursor: pointer;
+	transition: 700ms;
+}
+
+.menu__button-curva{
+	background: transparent;
+	margin-left: 180px;
+	margin-right: 0px;
+	width: 150px;
+	height: 40px;
+	font-size:1.2em;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 700ms;
+}
+
+.menu__Link :hover{
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .menu__button{
+		width: 150px;
+		height: 40px;
+		font-size:1em;
+	}
+
+	.menu__button-curva{
+		border-radius: 5px 5px 100px 5px;
+		width: 150px;
+		height: 40px;
+		font-size:1em;
+	}
+
+}
+
+@media only screen and (max-width: 1370px) {
+
+	.menu__button-curva{
+		border-radius: 5px 5px 100px 5px;
+	}
+
+}
+
+@media only screen and (max-width: 1335px) {
+
+	.menu__button-curva{
+		border-radius: 5px 5px 5px 5px;
+	}
+
+}
+
+@media only screen and (max-width: 727px) {
+
+	.menu__button-curva{
+		border-radius: 5px 5px 100px 5px;
+	}
+
+}
+
+@media only screen and (max-width: 725px) {
+
+	.menu__button{
+		margin-left: 175px;
+		width: 150px;
+		height: 30px;
+		margin-right: 30px;
+	}
+	.menu__button-curva{
+		margin-left: 175px;
+		width: 150px;
+		height: 30px;
+		margin-right: 30px;
+	}
+
+}
+
+@media only screen and (max-width: 725px) {
+
+	.menu__button{
+		margin-left: 175px;
+		width: 150px;
+		height: 30px;
+		margin-right: 30px;
+	}
+	.menu__button-curva{
+		margin-left: 175px;
+		width: 150px;
+		height: 30px;
+		margin-right: 30px;
+	}
+
 }

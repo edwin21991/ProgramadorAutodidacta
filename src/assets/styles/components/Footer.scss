@@ -1,9 +1,84 @@
 .footer {
   background:linear-gradient(to right, #042563, black); 
   width: 100%;
+  height: 100%;
   margin-top:30px;
   border-radius: 100px 0 0 0;
-  
+}
+
+.footer__container{
+  display: flex;
+  padding-bottom: 1%;
+}
+
+.footer__foto{
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.footer .footer__foto img {
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 100px;
+  margin-left: -2px;
+  margin-top: -1px;
+}
+
+.footer__foto p {
+  color: white;
+  margin-left: 10px;
+}
+
+.footer__container_correo{
+  margin-top: 10px;
+  padding: 10px;
+  border: solid;
+  border-color: white;
+  border-radius: 20px;
+}
+
+input{
+  border: none;
+  margin: 0px;
+}
+
+p {
+  color: white;
+}
+
+.footer__container__titulo-caja{
+  text-align: center;
+}
+
+.footer__titulo-caja{
+  font-size: 1.2em;
+}
+
+textarea{
+  max-width: 300px;
+  max-height: 50px;
+}
+.footer__enviar{
+  text-align: center;
+  margin-top: 5px;
+}
+
+input[type="submit"]{
+  background: transparent;
+  border: solid;
+	width: 60px;
+	height: 40px;
+	font-size:0.9em;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 700ms;
+}
+
+.footer__container-redes_principal{
+  padding-top: 1%;
+  width: 50%;
 }
 
 .footer a {
@@ -21,44 +96,21 @@
 }
 
 .footer__container-redes{
-  display: flex;
-  align-items: center;
-	flex-wrap: wrap;
   float: right;
-  height: 200px;
-  padding-right: 40px;
-  padding-top: 50px;
-  margin-left: 180px;
+  width: 50%;
+  text-align: right;
+  padding-right: 5%;
+  padding-top: 1%;
+  margin-left: 180px; 
 }
 
 .footer .footer__container-redes img {
-  width: 50px;
+  width: 80px;
   border-radius: 100px;
 }
 
-p {
-  color: white;
-  margin-left: 10px;
-  
-}
-
-.footer__copy{
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.footer__foto{
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  height: 100%;
-}
-.footer .footer__container-copy .footer__foto img {
-  width: 200px;
-  border-radius: 100px;
-  margin-left: -2px;
-  margin-top: -1px;
+.footer__img{
+  transition: 700ms;
 }
 
 .footer .footer__container-copy .footer__foto img:hover{
@@ -66,3 +118,113 @@ p {
   transform: scale(1.1);
   opacity: 1;
 }
+
+@media only screen and (max-width: 600px) {
+
+  .footer {
+    border-radius: 80px 0 0 0;
+  }
+  .footer__foto{
+    width: 30%;
+  }
+  .footer__container-copy{
+    width: 30%;
+  }
+  textarea{
+    max-width: 160px;
+    max-height: 50px;
+  }
+  input {
+    max-width: 160px;
+  }
+  input[type="submit"]{
+    width: 50px;
+    height: 20px;
+    font-size:0.7em;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 700ms;
+  }
+  p {
+    font-size: 0.7em;
+  }
+  .footer .footer__foto img {
+    max-width: 100px;
+    max-height: 100px;
+  }
+  .footer__container-redes_principal{
+    display: flex;
+    flex-wrap: wrap;
+    width: 10%;
+  }
+  .footer a {
+    font-size: 14px;
+    padding-left: 0px;
+    text-decoration: none;
+  }
+  .footer .footer__container-redes img {
+    width: 30px;
+  } 
+  .footer__container-redes{
+    float: center;
+    text-align:left;
+    width: 95%;
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  
+}
+@media only screen and (max-width: 1570px) {
+
+  .footer .footer__container-redes img {
+    width: 60px;
+  } 
+  
+}
+@media only screen and (max-width: 1470px) {
+
+  .footer .footer__container-redes img {
+    width: 50px;
+  } 
+  
+}
+@media only screen and (max-width: 1370px) {
+
+  .footer .footer__container-redes img {
+    width: 40px;
+  } 
+   
+}
+@media only screen and (max-width: 1270px) {
+
+  .footer .footer__container-redes img {
+    width: 30px;
+  } 
+   
+}
+@media only screen and (max-width: 1170px) {
+  
+  .footer__container-redes_principal{
+    display: flex;
+    flex-wrap: wrap;
+    width: 10%;
+  }
+  .footer a {
+    font-size: 14px;
+    padding-left: 0px;
+    text-decoration: none;
+  }
+  .footer .footer__container-redes img {
+    width: 30px;
+  } 
+  .footer__container-redes{
+    float: center;
+    text-align:left;
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  
+}
+
+
