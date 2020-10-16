@@ -62,6 +62,27 @@ textarea{
 .footer__enviar{
   text-align: center;
   margin-top: 5px;
+  
+}
+
+.footer__container-botoneEnviar{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+#footer__img{ 
+  display: none;
+}
+
+#footer__img img{ 
+  width: 40px;
+  margin-left: 20px;
+  margin-top: 5px;
+  border-radius: 100px;
+  // display: none;
 }
 
 input[type="submit"]{
@@ -71,7 +92,8 @@ input[type="submit"]{
 	height: 40px;
 	font-size:0.9em;
 	color: white;
-	border-radius: 5px;
+  border-radius: 5px;
+  margin-left: 20px;
 	cursor: pointer;
 	transition: 700ms;
 }

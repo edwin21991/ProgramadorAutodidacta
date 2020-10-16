@@ -1,4 +1,6 @@
-import React from 'react'
+import React, {Component} from 'react'
+import emailjs from 'emailjs-com'
+
 import '../assets/styles/components/Footer.scss'
 import facebook from '../assets/static/facebook.gif'
 import twitter from '../assets/static/twitter.gif'
@@ -7,8 +9,22 @@ import youtube from '../assets/static/youtube.gif'
 import tiktok from '../assets/static/tiktok.gif'
 import foto from '../assets/static/foto.png'
 import github from '../assets/static/github.gif'
+import enviado from '../assets/static/enviado.gif'
+import { render } from '@testing-library/react'
 
-const Footer = () =>(
+function sendEmail(e) {
+  e.preventDefault();
+  emailjs.sendForm('gmail', 'template_hvu0cim', e.target, 'user_WAaolNPAniMVR3QEPkN3A')
+    .then((result) => {
+        console.log(result.text);
+    }, (error) => {
+        console.log(error.text);
+    });
+    e.target.reset()
+}
+
+const Footer = ()=>(
+
   <footer className = "footer">
     <div className="footer__container">
       <div className="footer__container-copy">
@@ -23,13 +39,18 @@ const Footer = () =>(
         <div className="footer__container__titulo-caja">
           <p className="footer__titulo-caja">Escribeme!!</p>
         </div>
-        <form action="correo.php" method="POST">
+        <form onSubmit={sendEmail}>
           <p>Asunto</p>
-          <input type="text" name="asunto"/>
+          <input type="text" name="from_name" required="required" onClick={msgNuevo}/>
           <p>Mensaje</p>
-          <textarea name="msg" id="" cols="40" rows="3"></textarea>
+          <textarea name="mensaje" cols="40" rows="3" required="required" onClick={msgNuevo}></textarea>
           <div className="footer__enviar">
-            <input type="submit" name="enviar"/>
+            <div className="footer__container-botoneEnviar">
+              <input type="submit" name="enviar" value="Enviar" onClick={msgEnviado}/>
+              <div id="footer__img">
+                <img src={enviado} alt="enviado" />
+              </div>
+            </div>
           </div>
         </form>
       </div>
@@ -49,5 +70,13 @@ const Footer = () =>(
     
   </footer>
 )
+
+function msgEnviado (){
+  document.getElementById('footer__img').style.display="block";
+}
+
+function msgNuevo (){
+  document.getElementById('footer__img').style.display="none";
+}
 
 export default Footer

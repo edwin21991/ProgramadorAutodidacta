@@ -1,5 +1,5 @@
 {
-  "homepage":"https://edwin21991.github.io/ProgramadorAutodidacta", 
+  "homepage": "https://edwin21991.github.io/ProgramadorAutodidacta",
   "name": "programadorautodidacta",
   "version": "0.1.0",
   "private": true,
@@ -12,6 +12,7 @@
     "@testing-library/user-event": "^7.2.1",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.1.0",
+    "emailjs-com": "^2.6.3",
     "eslint": "^7.6.0",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-plugin-import": "^2.22.0",
