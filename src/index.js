@@ -17,7 +17,8 @@ const initialState = {
       "duration": "2 Años",
       "cover": "../../public/images/tecnico.png",
       "institute": "Teinco",
-      "source": "../assets/static/certificadoTecnico.png"
+      "source": "../assets/static/certificadoTecnico.png",
+      "certificado": "../../public/images/ptecnico.pdfdf/"
     },
     {
       "id": 3,
@@ -27,7 +28,8 @@ const initialState = {
       "duration": "3 Años",
       "cover": "../../public/images/tecnologo.png",
       "institute": "Teinco",
-      "source": "../assets/static/certificadoTecnolgo.png"
+      "source": "../assets/static/certificadoTecnolgo.png",
+      "certificado": "../../public/images/pdftecnologo.pdf/"
     },
     {
       "id": 4,
@@ -37,7 +39,8 @@ const initialState = {
       "duration": "4.5 Años",
       "cover": "../../public/images/ingenieria.png",
       "institute": "Teinco",
-      "source": "../assets/static/certificadoIngeniero.png"
+      "source": "../assets/static/certificadoIngeniero.png",
+      "certificado": "../../public/images/pdf/ingenieria.pdf"
     }
   ],
   "DiplomadoJavaScript": [
@@ -49,7 +52,8 @@ const initialState = {
       "duration": "244 horas",
       "cover": "../../public/images/diploma-escuela-javascript.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diploma-escuela-javascript.pdf"
     },
     {
       "id": 6,
@@ -59,7 +63,8 @@ const initialState = {
       "duration": "22 Horas",
       "cover": "../../public/images/diploma-git-github.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diploma-git-github.pdf"
     },
     {
       "id": 7,
@@ -69,7 +74,8 @@ const initialState = {
       "duration": "6 Horas",
       "cover": "../../public/images/diploma-prework.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diploma-prework.pdf"
     },
     {
       "id": 8,
@@ -79,7 +85,8 @@ const initialState = {
       "duration": "24 Horas",
       "cover": "../../public/images/diploma-frontend-developer.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diploma-frontend-developer.pdf"
     },
     {
       "id": 9,
@@ -89,7 +96,8 @@ const initialState = {
       "duration": "18 Horas",
       "cover": "../../public/images/diploma-basico-javascript.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diploma-basico-javascript.pdf"
     },
     {
       "id": 10,
@@ -99,7 +107,8 @@ const initialState = {
       "duration": "23 Horas",
       "cover": "../../public/images/diploma-fundamentos-javascript.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diploma-fundamentos-javascript.pdf"
     },
     {
       "id": 11,
@@ -109,7 +118,8 @@ const initialState = {
       "duration": "11 Horas",
       "cover": "../../public/images/diploma-ecmascript-6.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diploma-ecmascript-6.pdf"
     },
     {
       "id": 12,
@@ -119,7 +129,8 @@ const initialState = {
       "duration": "6 Horas",
       "cover": "../../public/images/diploma-asincronismo-js.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diploma-asincronismo-js.pdf"
     },
     {
       "id": 13,
@@ -129,7 +140,8 @@ const initialState = {
       "duration": "21 Horas",
       "cover": "../../public/images/diploma-javascript-profesional.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diploma-javascript-profesional.pdf"
     },
     {
       "id": 14,
@@ -139,7 +151,8 @@ const initialState = {
       "duration": "15 Horas",
       "cover": "../../public/images/diploma-react-practico.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diploma-react-practico.pdf"
     },
     {
       "id": 15,
@@ -149,7 +162,8 @@ const initialState = {
       "duration": "13 Horas",
       "cover": "../../public/images/diploma-react-router-redux.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diploma-react-router-redux.pdf"
     },
     {
       "id": 16,
@@ -159,7 +173,8 @@ const initialState = {
       "duration": "16 Horas",
       "cover": "../../public/images/diploma-fundamentos-node.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diploma-fundamentos-node.pdf"
     },
     {
       "id": 17,
@@ -169,7 +184,8 @@ const initialState = {
       "duration": "24 Horas",
       "cover": "../../public/images/diploma-backend-nodejs.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diploma-backend-nodejs.pdf"
     },
     {
       "id": 18,
@@ -179,7 +195,8 @@ const initialState = {
       "duration": "16 Horas",
       "cover": "../../public/images/diploma-ssr.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diploma-ssr.pdf"
     },
     {
       "id": 19,
@@ -189,7 +206,8 @@ const initialState = {
       "duration": "17 Horas",
       "cover": "../../public/images/diploma-passport.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diploma-passport.pdf"
     },
     {
       "id": 20,
@@ -199,7 +217,8 @@ const initialState = {
       "duration": "12 Horas",
       "cover": "../../public/images/diploma-bff.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diploma-bff.pdf"
     }
   ],
   "DiplomadoReactJS": [
@@ -211,7 +230,8 @@ const initialState = {
       "duration": "242 Horas",
       "cover": "../../public/images/diplomado-react.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diplomado-react.pdf"
     },
     {
       "id": 22, 
@@ -221,7 +241,8 @@ const initialState = {
       "duration": "11 horas",
       "cover": "../../public/images/diploma-ecmascript-6.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diploma-ecmascript-6.pdf"
     },
     {
       "id": 23,
@@ -231,7 +252,8 @@ const initialState = {
       "duration": "21 Horas",
       "cover": "../../public/images/diploma-javascript-profesional.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diploma-javascript-profesional.pdf"
     },
     {
       "id": 24,
@@ -241,7 +263,8 @@ const initialState = {
       "duration": "21 Horas",
       "cover": "../../public/images/diploma-react.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diploma-react.pdf"
     },
     {
       "id": 25,
@@ -251,7 +274,8 @@ const initialState = {
       "duration": "15 Horas",
       "cover": "../../public/images/diploma-react-practico.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diploma-react-practico.pdf"
     },
     {
       "id": 26,
@@ -261,7 +285,8 @@ const initialState = {
       "duration": "10 Horas",
       "cover": "../../public/images/diploma-postman.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diploma-postman.pdf"
     },
     {
       "id": 27,
@@ -271,7 +296,8 @@ const initialState = {
       "duration": "14 Horas",
       "cover": "../../public/images/diploma-webpack.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diploma-webpack.pdf"
     },
     {
       "id": 28,
@@ -281,7 +307,8 @@ const initialState = {
       "duration": "9 Horas",
       "cover": "../../public/images/diploma-npm.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diploma-npm.pdf"
     },
     {
       "id": 29,
@@ -291,7 +318,8 @@ const initialState = {
       "duration": "10 Horas",
       "cover": "../../public/images/diploma-react-router.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diploma-react-router.pdf"
     },
     {
       "id": 30,
@@ -301,7 +329,8 @@ const initialState = {
       "duration": "23 Horas",
       "cover": "../../public/images/diploma-redux.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diploma-redux.pdf"
     },
     {
       "id": 31,
@@ -311,7 +340,8 @@ const initialState = {
       "duration": "13 Horas",
       "cover": "../../public/images/diploma-react-router-redux.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diploma-react-router-redux.pdf"
     },
     {
       "id": 32,
@@ -321,7 +351,8 @@ const initialState = {
       "duration": "11 Horas",
       "cover": "../../public/images/diploma-graphql.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diploma-graphql.pdf"
     },
     {
       "id": 33,
@@ -331,7 +362,8 @@ const initialState = {
       "duration": "13 Horas",
       "cover": "../../public/images/diploma-next-2018.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diploma-next-2018.pdf"
     },
     {
       "id": 34,
@@ -341,7 +373,8 @@ const initialState = {
       "duration": "22 Horas",
       "cover": "../../public/images/diploma-gatsby.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diploma-gatsby.pdf"
     },
     {
       "id": 35,
@@ -351,7 +384,8 @@ const initialState = {
       "duration": "8 Horas",
       "cover": "../../public/images/diploma-pwa-react-js.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diploma-pwa-react-js.pdf"
     },
     {
       "id": 36,
@@ -361,7 +395,8 @@ const initialState = {
       "duration": "24 Horas",
       "cover": "../../public/images/diploma-react-avanzado.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diploma-react-avanzado.pdf"
     },
     {
       "id": 37,
@@ -371,7 +406,8 @@ const initialState = {
       "duration": "17 Horas",
       "cover": "../../public/images/diploma-react-native.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diploma-react-native.pdf"
     }
   ],
   "DiplomadoReactNative": [
@@ -383,7 +419,8 @@ const initialState = {
       "duration": "160 Horas",
       "cover": "../../public/images/diplomado-react-native.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diplomado-react-native.pdf"
     },
     {
       "id": 39, 
@@ -393,7 +430,8 @@ const initialState = {
       "duration": "11 horas",
       "cover": "../../public/images/diploma-ecmascript-6.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diploma-ecmascript-6.pdf"
     },
     {
       "id": 40,
@@ -403,7 +441,8 @@ const initialState = {
       "duration": "21 Horas",
       "cover": "../../public/images/diploma-javascript-profesional.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diploma-javascript-profesional.pdf"
     },
     {
       "id": 41,
@@ -413,7 +452,8 @@ const initialState = {
       "duration": "21 Horas",
       "cover": "../../public/images/diploma-react.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diploma-react.pdf"
     },
     {
       "id": 42,
@@ -423,7 +463,8 @@ const initialState = {
       "duration": "15 Horas",
       "cover": "../../public/images/diploma-react-practico.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diploma-react-practico.pdf"
     },
     {
       "id": 43,
@@ -433,7 +474,8 @@ const initialState = {
       "duration": "10 Horas",
       "cover": "../../public/images/diploma-react-router.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diploma-react-router.pdf"
     },
     {
       "id": 44,
@@ -443,7 +485,8 @@ const initialState = {
       "duration": "23 Horas",
       "cover": "../../public/images/diploma-redux.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diploma-redux.pdf"
     },
     {
       "id": 45,
@@ -453,7 +496,8 @@ const initialState = {
       "duration": "13 Horas",
       "cover": "../../public/images/diploma-react-router-redux.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diploma-react-router-redux.pdf"
     },
     {
       "id": 46,
@@ -463,7 +507,8 @@ const initialState = {
       "duration": "24 Horas",
       "cover": "../../public/images/diploma-react-avanzado.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diploma-react-avanzado.pdf"
     },
     {
       "id": 47,
@@ -473,7 +518,8 @@ const initialState = {
       "duration": "17 Horas",
       "cover": "../../public/images/diploma-react-native.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diploma-react-native.pdf"
     },
     {
       "id": 48,
@@ -483,7 +529,8 @@ const initialState = {
       "duration": "17 Horas",
       "cover": "../../public/images/diploma-react-navigation.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diploma-react-navigation.pdf"
     }
   ],
   "Cursos": [
@@ -495,7 +542,8 @@ const initialState = {
       "duration": "16 Horas",
       "cover": "../../public/images/diploma-webpack-2017.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diploma-webpack-2017.pdf"
     },
     {
       "id": 50,
@@ -505,7 +553,8 @@ const initialState = {
       "duration": "15 Horas",
       "cover": "../../public/images/diploma-redux-2018.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diploma-redux-2018.pdf"
     },
     {
       "id": 51,
@@ -515,7 +564,8 @@ const initialState = {
       "duration": "16 Horas",
       "cover": "../../public/images/diploma-react-2017.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diploma-react-2017.pdf"
     },
     {
       "id": 52,
@@ -525,7 +575,8 @@ const initialState = {
       "duration": "24 Horas",
       "cover": "../../public/images/diploma-programacion-basica.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diploma-programacion-basica.pdf"
     },
     {
       "id": 53,
@@ -535,7 +586,8 @@ const initialState = {
       "duration": "10 Horas",
       "cover": "../../public/images/diploma-marca-personal.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diploma-marca-personal.pdf"
     },
     {
       "id": 54,
@@ -545,7 +597,8 @@ const initialState = {
       "duration": "9 Horas",
       "cover": "../../public/images/diploma-astrobiologia.png",
       "institute": "Platzi",
-      "source": "https://platzi.com/@edwin.sanchez383"
+      "source": "https://platzi.com/@edwin.sanchez383",
+      "certificado": "../../public/images/pdf/diploma-astrobiologia.pdf"
     },
     {
       "id": 55,
@@ -554,8 +607,9 @@ const initialState = {
       "year": "2018",
       "duration": "10 Horas",
       "cover": "../../public/images/administrador de bases de datos.png",
-      "institute": "Capacitate Para el Empleo",
-      "source": "https://capacitateparaelempleo.org/verifica/j1o0b13tg/"
+      "institute": "Inttelmex IT",
+      "source": "https://capacitateparaelempleo.org/verifica/j1o0b13tg/",
+      "certificado": "../../public/images/pdf/administrador de bases de datos.pdf"
     },
     {
       "id": 56,
@@ -564,8 +618,9 @@ const initialState = {
       "year": "2018",
       "duration": "10 Horas",
       "cover": "../../public/images/administrador de servidores.png",
-      "institute": "Capacitate Para el Empleo",
-      "source": "https://capacitateparaelempleo.org/verifica/d5t0jqehm/"
+      "institute": "Inttelmex IT",
+      "source": "https://capacitateparaelempleo.org/verifica/d5t0jqehm/",
+      "certificado": "../../public/images/pdf/administrador de servidores.pdf"
     },
     {
       "id": 57,
@@ -574,8 +629,9 @@ const initialState = {
       "year": "2018",
       "duration": "10 Horas",
       "cover": "../../public/images/curador de datos.png",
-      "institute": "Capacitate Para el Empleo",
-      "source": "https://capacitateparaelempleo.org/verifica/5u6ky8v8s/"
+      "institute": "Inttelmex IT",
+      "source": "https://capacitateparaelempleo.org/verifica/5u6ky8v8s/",
+      "certificado": "../../public/images/pdf/curador de datos.pdf"
     },
     {
       "id": 58,
@@ -584,8 +640,9 @@ const initialState = {
       "year": "2018",
       "duration": "10 Horas",
       "cover": "../../public/images/desarrollador back end.png",
-      "institute": "Capacitate Para el Empleo",
-      "source": "https://capacitateparaelempleo.org/verifica/xwjah50c3/"
+      "institute": "Inttelmex IT",
+      "source": "https://capacitateparaelempleo.org/verifica/xwjah50c3/",
+      "certificado": "../../public/images/pdf/desarrollador back end.pdf"
     },
     {
       "id": 59,
@@ -594,8 +651,9 @@ const initialState = {
       "year": "2018",
       "duration": "10 Horas",
       "cover": "../../public/images/desarrollador de aplicaciones moviles.png",
-      "institute": "Capacitate Para el Empleo",
-      "source": "https://capacitateparaelempleo.org/verifica/1cxlfubte/"
+      "institute": "Inttelmex IT",
+      "source": "https://capacitateparaelempleo.org/verifica/1cxlfubte/",
+      "certificado": "../../public/images/pdf/desarrollador de aplicaciones moviles.pdf"
     },
     {
       "id": 60,
@@ -604,8 +662,9 @@ const initialState = {
       "year": "2018",
       "duration": "10 Horas",
       "cover": "../../public/images/desarrollador front end.png",
-      "institute": "Capacitate Para el Empleo",
-      "source": "https://capacitateparaelempleo.org/verifica/94xajwus/"
+      "institute": "Inttelmex IT",
+      "source": "https://capacitateparaelempleo.org/verifica/94xajwus/",
+      "certificado": "../../public/images/pdf/desarrollador front end.pdf"
     },
     {
       "id": 61,
@@ -614,8 +673,9 @@ const initialState = {
       "year": "2018",
       "duration": "10 Horas",
       "cover": "../../public/images/desarrollaro de video juegos.png",
-      "institute": "Capacitate Para el Empleo",
-      "source": "https://capacitateparaelempleo.org/verifica/0jk2d3yqy/"
+      "institute": "Inttelmex IT",
+      "source": "https://capacitateparaelempleo.org/verifica/0jk2d3yqy/",
+      "certificado": "../../public/images/pdf/desarrollaro de video juegos.pdf"
     },
     {
       "id": 62,
@@ -624,8 +684,9 @@ const initialState = {
       "year": "2018",
       "duration": "10 Horas",
       "cover": "../../public/images/diploma de fibra optica.png",
-      "institute": "Capacitate Para el Empleo",
-      "source": "https://capacitateparaelempleo.org/verifica/19a0t3szh/"
+      "institute": "Inttelmex IT",
+      "source": "https://capacitateparaelempleo.org/verifica/19a0t3szh/",
+      "certificado": "../../public/images/pdf/diploma de fibra optica.pdf"
     },
     {
       "id": 63,
@@ -634,8 +695,9 @@ const initialState = {
       "year": "2018",
       "duration": "10 Horas",
       "cover": "../../public/images/programacion orientada a objetos.png",
-      "institute": "Capacitate Para el Empleo",
-      "source": "https://capacitateparaelempleo.org/verifica/38y07niy5/"
+      "institute": "Inttelmex IT",
+      "source": "https://capacitateparaelempleo.org/verifica/38y07niy5/",
+      "certificado": "../../public/images/pdf/programacion orientada a objetos.pdf"
     },
     {
       "id": 64,
@@ -645,7 +707,8 @@ const initialState = {
       "duration": "60 Hs Valida Certificado 9539001750250CC1108932852E",
       "cover": "../../public/images/English dot Works Beginner.png",
       "institute": "SENA",
-      "source": "http://certificados.sena.edu.co"
+      "source": "http://certificados.sena.edu.co",
+      "certificado": "../../public/images/pdf/English dot Works Beginner.pdf"
     },
     {
       "id": 65,
@@ -655,7 +718,8 @@ const initialState = {
       "duration": "60 Hs Valida Certificado 922600288571CC1108932852E",
       "cover": "../../public/images/Conprensino y produccion de texos.png",
       "institute": "SENA",
-      "source": "http://certificados.sena.edu.co"
+      "source": "http://certificados.sena.edu.co",
+      "certificado": "../../public/images/pdf/Conprensino y produccion de texos.pdf"
     }   
   ]
 }

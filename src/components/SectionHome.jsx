@@ -12,7 +12,7 @@ const SectionHome = () =>(
           Este sitio web está pensado para mostrar mi perfil profesional y el conocimiento actual que tengo en el manejo 
           del lenguaje JavaScript y el FrameWork o Libreria React JS inicialmente se puede destacar 
           que su estructura es responsive por lo que si la ves desde un móvil o tablet no tiene ningún problema
-          ahora quisiera mencionar las tecnologías usadas para darle vida a este proyecto:
+          tambien quisiera mencionar las tecnologías usadas para darle vida a este proyecto:
           <br/><br/>
           NOTA: Todo lo que voy a mencionar a continuación se puede validar verificando el proyecto en Github en el
           siguiente link: <a href="https://github.com/edwin21991/ProgramadorAutodidacta.git" target="_blank">programadorAutodidacta.</a><br/><br/>
